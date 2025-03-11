@@ -1,7 +1,5 @@
 # ddxCROOK: A Clinical Reasoning Adventure 🏥
 
-![ddxCROOK Banner](https://user-images.githubusercontent.com/YourGitHubID/ddxCROOK/main/screenshots/banner.png)
-
 ## 🎮 About The Game
 
 **ddxCROOK** is an interactive terminal-based adventure game that puts you in the shoes of a medical student working with the intimidating but brilliant Dr. Crook! Your mission: diagnose a patient with mysterious symptoms while maintaining your reputation and keeping your anxiety in check.
