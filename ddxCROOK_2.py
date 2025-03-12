@@ -67,7 +67,7 @@ def first_decision():
         if choice == "1":
             type_text("'Ah! Direct and to the point. I like your style,' Dr. Crook says with a grin.")
             type_text("'Temp 39.2°C, RR 32, HR 128, SpO2 91% on room air.'")
-            type_text("'In the world of pediatrics, we call these "spicy" vitals.'")
+            type_text('In the world of pediatrics, we call these "spicy" vitals.')
             player["correct_choices"] += 1
             player["learning_points"] += 5
             player["diagnosis_hints"].append("Fever with tachypnea and hypoxemia")
