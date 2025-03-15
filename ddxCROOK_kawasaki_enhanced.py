@@ -489,22 +489,22 @@ def start_game():
     
     print_divider()
     type_text("🏥 Welcome to ddxCROOK: A Pediatric Diagnosis Adventure 🏥", color=Color.GREEN)
-    type_text("Where every child is a diagnostic puzzle, and Dr. Crook is your witty guide...", color=Color.CYAN)
+    type_text("Where every child is a diagnostic puzzle, and every attending is a final boss...", color=Color.CYAN)
     type_text("(and your impostor syndrome is your true nemesis)", color=Color.PURPLE)
         
     player["name"] = input("\nEnter your name, brave medical student: ")
     
-    type_text(f"\n[Dell Medical School - Pediatric Ward]", color=Color.BLUE)
-    type_text("It's 7:15 AM. Morning rounds are about to start.")
+    type_text(f"\n[7:15 AM - Pediatric Ward]", color=Color.BLUE)
+    type_text("Morning rounds are about to start.")
     type_text(f"You, Dr. {player['name']}, are nervously reviewing your patient list when...")
     type_text(".....")
 
     type_text("👨‍⚕️ Dr. Crook appears suddenly behind you with uncanny stealth!", color=Color.YELLOW)
-    type_text("'Morning, doctor! Got an interesting admission overnight.'", color=Color.YELLOW)
+    type_text("'Ah, perfect timing. Got an interesting admission overnight.'", color=Color.YELLOW)
     type_text("'5-year-old with quite the constellation of symptoms. Fascinating vitals too.'", color=Color.YELLOW)
     
     # Internal thought
-    type_text("(Your brain: 'Why do attendings always appear out of nowhere? Do they teach teleportation in med school?')", color=Color.PURPLE)
+    type_text("(You: 'Why do attendings always appear out of nowhere? Do they teach teleportation in med school?')", color=Color.PURPLE)
     
     scene_transition()
     
