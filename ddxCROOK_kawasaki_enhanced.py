@@ -194,7 +194,6 @@ def second_decision():
             player["anxiety"] += 25
             player["reputation"] -= 15
             # Internal thought
-            type_text("(Your brain: 'Wow, for an older attending, he sure moves fast when medical students are about to make terrible decisions.')", color=Color.PURPLE)
             continue
         elif choice == "4":
             type_text("Dr. Crook's face brightens. 'Good instinct. Physical exam is key in pediatrics.'", color=Color.GREEN)
