@@ -18,11 +18,11 @@ class Color:
 # Clinical pearls hints dictionary - organized by diagnosis
 hints_dict = {
     "kawasaki": [
-        "Remember the classic mnemonic 'CRASH & BURN'",
-        "This disease typically affects children under 5 years old",
-        "The strawberry tongue is a distinctive finding",
-        "Coronary artery aneurysms are the most serious complication",
-        "Fever lasting more than 5 days is a key diagnostic criterion"
+        "Does... 'CRASH & BURN' ring a bell?! 👀",
+        "This disease typically affects wee lads under 5 years old.",
+        "The strawberry tongue is a distinctive finding... 🍓",
+        "Coronary artery aneurysms are the most serious complication.",
+        "Fever lasting more than 5 days is a key diagnostic criterion."
     ]
 }
 
@@ -34,7 +34,7 @@ def provide_hint(current_case="kawasaki"):
     """Provides a clinical pearl hint for the current case"""
     global hints_used
     if hints_used >= max_hints:
-        type_text("⚠️ You've used all your available hints for this case!", color=Color.RED)
+        type_text("⚠️ NO MORE HINTS!", color=Color.RED)
         return
         
     hints_used += 1
