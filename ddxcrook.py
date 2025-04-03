@@ -620,7 +620,7 @@ def start_game():
     
     type_text(f"\n[7:15 AM - Pediatric Ward]", color=Color.BLUE)
     type_text("Morning rounds are about to start.")
-    type_text(f"You, Dr. {player['name']}, are nervously reviewing your patient list when...")
+    type_text(f"You, {player['name']}, are the med student nervously reviewing your patient list when...")
     type_text(".....")
 
     type_text("👨‍⚕️ Dr. Crook appears suddenly behind you with uncanny stealth!", color=Color.YELLOW)
